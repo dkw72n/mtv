@@ -1,0 +1,10 @@
+.d3-timeline-chart-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.d3-timeline-chart-svg .selection {
+    fill: #848484;
+    stroke: #e8e8e8;
+    fill-opacity: 0.2;
+}

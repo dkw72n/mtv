@@ -1,0 +1,71 @@
+.treeView {
+    font-size: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3px;
+}
+.tab {
+    flex: 0 0 auto;
+    width: 14px;
+}
+.selectBox{
+
+    cursor: pointer;
+    pointer-events: none;
+    display: flex;
+    padding: 1px;
+
+}
+.active {
+    background: #0a84ff;
+}
+
+
+.bar {
+    height: 18px;
+    background: rgba(255, 99, 71, 1);
+    margin-right: 4px;
+    position: relative;
+    cursor: pointer;
+    width: 110px;
+    line-height: 18px;
+
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.total {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 4px;
+    color: #e1e1e1;
+}
+.self {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 10px;
+    padding: 0 4px;
+    text-align: right;
+    color: #e1e1e1;
+}
+.selfBg {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(50, 205, 50);
+}
+.name {
+}
+

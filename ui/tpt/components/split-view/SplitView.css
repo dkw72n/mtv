@@ -1,0 +1,8 @@
+.splitView {
+}
+.splitPanelView {
+  border: 1px solid red;
+}
+.panelResizer {
+  background: orange;
+}

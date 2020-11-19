@@ -1,0 +1,77 @@
+.treeTable {
+    width: 100%;
+    font-size: 12px;
+    table-layout:fixed;
+    border-collapse: separate; 
+    border-spacing: 0px 0px;
+}
+
+.treeTable thead tr {
+    font-size: 12px;
+    font-weight: bold;
+    background: linear-gradient(#636363, #343434, #353535);
+    padding: 0xp;
+    margin: 0xp;
+}
+
+.treeTable thead th {
+    padding: 2px 10px;
+    border-right: 1px solid #1f1f1f;
+    text-align: right;
+    
+    color: #ffffff;
+    cursor: pointer;
+
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.treeTable thead th:first-child {
+    text-align: left;
+    width: auto;
+    cursor: default;
+}
+
+.treeTable tbody td {
+    padding: 2px 10px;
+    text-align: right;
+    color: #d8d8d8;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.treeTable tbody td b {
+    display: inline-block;
+    width: 10px;
+}
+
+.treeTable tbody td img {
+    cursor: pointer;
+}
+
+.treeTable tbody td:first-child {
+    text-align: left;
+}
+
+.treeTable tbody tr:nth-child(even) {
+    background: #272727;
+}
+.treeTable tbody tr:hover,
+.treeTable tbody tr.active {
+    background: #0a84ff !important;
+}
+.treeTable tbody tr:hover td,
+.treeTable tbody tr.active td {
+    color: #000000 !important;
+    font-weight: bold;
+}
+.dropLine{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    z-index: 500;
+    width: 6px;
+    height: 100%;
+}

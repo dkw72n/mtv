@@ -1,0 +1,50 @@
+.d3-time-flame-graph {
+    position: relative;
+}
+
+.d3-time-flame-graph-scroll-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 200;
+    padding-left: 1px;;
+}
+
+.d3-time-flame-graph-highlight {
+    position: absolute;
+    pointer-events: none;
+    background-color: rgba(56, 121, 217, 0.1);
+} 
+
+.d3-time-flame-graph-selected {
+    position: absolute;
+    pointer-events: none;
+    outline: 2px solid red;
+    background-color: rgba(56, 121, 217, 0.1);
+}
+
+.d3-time-flame-graph-tooltip {
+    display: none;
+    position: absolute;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.9);
+    color: #d6d6d6;
+    font-size: 12px;
+    min-width: 100px;
+    height: 22px;
+    padding: 2px 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    white-space:nowrap;
+}
+.d3-time-flame-graph-tooltip-ms {
+    display: inline-block;
+    color: #e95c15;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.d3-time-flame-graph-tooltip-name {
+    display: inline-block;
+}

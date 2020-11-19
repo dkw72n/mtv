@@ -1,0 +1,45 @@
+.topBar {
+    width: 100%;
+    z-index: 2;
+}
+
+.toolBar {
+    background: linear-gradient(#333333, #2e2e2e);
+    border-bottom: 1px solid #1f1f1f;
+    padding: 2px 2px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: bold;
+}
+.toolBarBtn {
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #323232;
+}
+.hideDropdown:global(.dropdown-toggle::after) {
+    content: none;
+}
+.toolBar .leftBtns,
+.toolBar .centerBtns,
+.toolBar .rightBtns {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    align-items: center;
+}
+.toolBar .centerBtns {
+    justify-content: center;
+}
+.toolBar .rightBtns {
+    justify-content: flex-end;
+
+}
+.toolBar .frameIndex {
+    font-size: 12px;
+    height: 100%;
+    line-height: 100%;
+    padding: 9px 20px;
+    width: 200px;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+.searchInputBox {
+    position: relative;
+    overflow: visible;
+}
+.searchInputAutocompleteList {
+    position: absolute;
+    right: 0;
+    z-index: 888;
+    background: #171717;
+    min-width: 100%;
+    max-width: 150%;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.searchInputAutocompleteItem {
+    padding: 2px 5px;
+    cursor: pointer;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+.searchInputAutocompleteItem:hover,
+.searchInputAutocompleteItem:active,
+.searchInputAutocompleteItem:global(.active) {
+    background: #0a84ff;
+}
+.searchInputColorBox {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: yellowgreen;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.searchInputInnerBox {
+    position: relative;
+}
+.searchInputClearBtn {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.searchInputClearBtn:hover,
+.searchInputClearBtn:active {
+    background: rgba(100, 100, 100, 0.2);
+}

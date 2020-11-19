@@ -1,0 +1,30 @@
+.lineChartBox {
+    position: relative;
+    background: #232323;
+}
+.lineChartCanvas {
+    display: block;
+}
+.selectLine {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    background: #ffffff;
+}
+
+.lineChartScrollbar {
+    display: none;
+    position: absolute;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.lineChartScrollbar>div {
+    height: 1px;
+
+}
