@@ -45,7 +45,7 @@ namespace Config {
 	static int multiplier = 1;
 	static int port = 9001;
 	static std::string host = "127.0.0.1";
-	static std::string tracker = "mmap";
+	static std::string tracker = "malloc";
 	static std::string filename;
 	static std::string wwwdir = "www";
 	static bool smoke = false;
